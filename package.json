@@ -1,0 +1,23 @@
+{
+  "name": "projeto1-modulo1-bluefullstack",
+  "version": "1.0.0",
+  "description": "Primeiro projeto do Módulo 1 da Blue ed Tech - Web Fullstack",
+  "main": "pM1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinhas93/Projeto1-Modulo1-BlueFullstack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinhas93/Projeto1-Modulo1-BlueFullstack/issues"
+  },
+  "homepage": "https://github.com/vinhas93/Projeto1-Modulo1-BlueFullstack#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
