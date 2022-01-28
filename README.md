@@ -1,4 +1,4 @@
-# Projeto1-Modulo1-BlueFullstack          <img src="https://user-images.githubusercontent.com/95504029/151560441-2e792d97-fd65-462c-8fd7-70f581de5674.gif" width="200">
+# Projeto1-Modulo1-BlueFullstack          <img src="https://user-images.githubusercontent.com/95504029/151560441-2e792d97-fd65-462c-8fd7-70f581de5674.gif" width="100">
 ### Módulo 1 - Blue ed Tech - Web Fullstack 
 
 ## Projeto 1 - A Jornada do Herói 
