@@ -1,5 +1,7 @@
 const prompt = require("prompt-sync")();
 
+const sim = [1, "1", "SIM","Sim","sim","s","S"]
+const nao = [2, "2", "NAO","Nao","nao","n","N"]
 let endGame = false;
 
 while (endGame == false) {
@@ -76,14 +78,14 @@ while (endGame == false) {
   while (true) {
     console.log("\t1)Sim\t2)Não");
     A = prompt("Responda: ");
-    if (A == 1 || A == "Sim" || A == "sim" || A == "s") {
+    if (sim.indexOf(A) > -1) {
       console.log(
         `
             \tVocê joga seu corpo contra a porta na tentativa de abri-la, infelizmente ela nem se mexeu, mas fez algum barulho.`
       );
       path++;
       break;
-    } else if (A == 2 || A == "Nao" || A == "nao" || A == "n") {
+    } else if (nao.indexOf(A) > -1) {
       console.log(
         `
             \tEla parece muito robusta, e talvez, você não queira chamar tanta atenção pra si nesse momento.
@@ -119,7 +121,7 @@ while (endGame == false) {
   while (true) {
     console.log("\t1)Sim\t2)Não");
     A = prompt("Responda: ");
-    if (A == 1 || A == "Sim" || A == "sim" || A == "s") {
+    if (sim.indexOf(A) > -1) {
       console.log(
         `
             \tVocê tomou coragem e se agarrou na esperança e na infeliz falta de opção, respondendo com tudo o que tinha na 
@@ -128,7 +130,7 @@ while (endGame == false) {
       );
       path++;
       break;
-    } else if (A == 2 || A == "Nao" || A == "nao" || A == "n") {
+    } else if (nao.indexOf(A) > -1) {
       console.log(
         `
             \tVocê achou que seria mais seguro chamar menos atenção, afinal, você ainda não entende o que está acontecendo.
@@ -185,7 +187,7 @@ while (endGame == false) {
   while (true) {
     console.log("\t1)Sim\t2)Não");
     A = prompt("Responda: ");
-    if (A == 1 || A == "Sim" || A == "sim" || A == "s") {
+    if (sim.indexOf(A) > -1) {
       console.log(
         `
             \tVocê sabia que essa era a única escolha viável, você se aproxima do armário e ao abrir a porta...
@@ -195,7 +197,7 @@ while (endGame == false) {
       );
       path++;
       break;
-    } else if (A == 2 || A == "Nao" || A == "nao" || A == "n") {
+    } else if (nao.indexOf(A) > -1) {
       console.log(
         `
             \tVocê espera o barulho passar...
@@ -226,7 +228,7 @@ while (endGame == false) {
   while (true) {
     console.log("\t1)Sim\t2)Não");
     A = prompt("Responda: ");
-    if (A == 1 || A == "Sim" || A == "sim" || A == "s") {
+    if (sim.indexOf(A) > -1) {
       console.log(
         `
             \tVocê tenta, mas ele é muito rápido...
@@ -234,7 +236,7 @@ while (endGame == false) {
       );
       path++;
       break;
-    } else if (A == 2 || A == "Nao" || A == "nao" || A == "n") {
+    } else if (nao.indexOf(A) > -1) {
       console.log(
         `
             \tVocê decide poupar o pequeno que vai direto no pão com larvas...
@@ -283,7 +285,7 @@ while (endGame == false) {
   while (true) {
     console.log("\t1)Sim\t2)Não");
     A = prompt("Responda: ");
-    if (A == 1 || A == "Sim" || A == "sim" || A == "s") {
+    if (sim.indexOf(A) > -1) {
       console.log(
         `
         \tVocê acende o fogo...
@@ -291,7 +293,7 @@ while (endGame == false) {
       );
       path++;
       break;
-    } else if (A == 2 || A == "Nao" || A == "nao" || A == "n") {
+    } else if (nao.indexOf(A) > -1) {
       console.log(
         `
         \tVocê apaga o papel aceso na sua mão com medo das consequências e se depara novamente com a situação a sua volta...
@@ -407,10 +409,10 @@ while (endGame == false) {
   while (true) {
     console.log("\t1)Sim\t2)Não");
     A = prompt("Responda: ");
-    if (A == 1 || A == "Sim" || A == "sim" || A == "s") {
+    if (sim.indexOf(A) > -1) {
       console.clear();
       break;
-    } else if (A == 2 || A == "Nao" || A == "nao" || A == "n") {
+    } else if (nao.indexOf(A) > -1) {
       endGame = true;
       break;
     } else {
