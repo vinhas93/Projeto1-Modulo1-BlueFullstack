@@ -9,7 +9,7 @@ Dependendo de como foi sua jornada, dos objetivos que foram concluídos no  cami
 ### REQUISITOS 
 <p> Você deve criar um programa que faça 5 perguntas para o usuário, e  dependendo das respostas, vai exibir um resultado diferente no final. As  perguntas devem ser todas de Sim ou Não, e devem ser referentes aos objetivos  que ele tiveram que ser cumpridos durante a jornada, por exemplo: "Você  conseguiu encontrar a Espada Mágica da Chama da Estrela do Inverno?", "Você  conseguiu consertar os reatores nucleares do motor de dobra?", "Você se  lembrou de passar no mercado e comprar óleo?" </p>
 
-No final, o programa deve fazer uma contagem de quantas respostas foram Sim,  e exibir o resultado de acordo com esse número: 
+O programa deve fazer ao final, uma contagem de quantas respostas foram Sim,  e exibir o resultado de acordo com esse número: 
 
 - 0 respostas Sim: Você falha miseravelmente. 
 - 1 ou 2 respostas Sim: Você falha, mas ainda consegue fugir da situação. 
